@@ -53,13 +53,10 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Work<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="gallery.php">Action</a></li>
-                    <li><a href="gallery.php">Another action</a></li>
-                    <li><a href="gallery.php">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="gallery.php">Separated link</a></li>
-                    <li><a href="gallery.php">One more separated link</a></li>
+                    <li><a href="gallery.php">All Work</a></li>
+                    <li><a href="comercial.php">Comercial</a></li>
+                    <li><a href="residental.php">Residential</a></li>
+                    <li><a href="landdev.php">Land Development</a></li>
                   </ul>
                 </li>
               </ul>

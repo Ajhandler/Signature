@@ -6,7 +6,7 @@
             });
 
              $(function() {
-                $('a').fullsizable({
+                $('.portfolio-item a').fullsizable({
                 detach_id: 'portfolio',
                 clickBehaviour: 'next'
         });
