@@ -116,14 +116,14 @@ body {
 }
 #fullsized_go_prev {
   left: 0;
-  background: url('img/jquery-fullsizable.png');
+  background: url('jquery-fullsizable.png');
 }
 #fullsized_go_prev:hover {
     background-position: 0 -126px;
 }
 #fullsized_go_next {
   right: 0;
-  background: url('img/jquery-fullsizable.png') -32px 0;
+  background: url('jquery-fullsizable.png') -32px 0;
 }
 #fullsized_go_next:hover {
   background-position: -32px -126px;
@@ -135,16 +135,16 @@ body {
   width: 32px;
   height: 32px;
 }
-#fullsized_close {
+ #fullsized_close {
   right: 0;
-  background: url('img/jquery-fullsizable.png') -64px 0;
+  background: url('jquery-fullsizable.png') -64px 0;
 }
 #fullsized_close:hover {
   background-position: -64px -32px;
 }
-#fullsized_fullscreen {
+#jquery-fullsizable #fullsized_fullscreen {
   right: 40px;
-  background: url('img/jquery-fullsizable.png') -96px 0;
+  background: url('jquery-fullsizable.png') -96px 0;
 }
 #fullsized_fullscreen:hover {
   background-position: -96px -32px;

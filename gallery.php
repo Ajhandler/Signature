@@ -164,11 +164,24 @@
             });
 
              $(function() {
-      $('a').fullsizable({
-        detach_id: 'portfolio',
-        clickBehaviour: 'next'
+                $('a').fullsizable({
+                detach_id: 'portfolio',
+                clickBehaviour: 'next'
       });
     });
+             $(document).on('fullsizable:opened', function(){
+  $("#jquery-fullsizable").swipe({
+    swipeLeft: function(){
+      $(document).trigger('fullsizable:next')
+    },
+    swipeRight: function(){
+      $(document).trigger('fullsizable:prev')
+    },
+    swipeUp: function(){
+      $(document).trigger('fullsizable:close')
+    }
+  });
+});
 
         });
     </script>
