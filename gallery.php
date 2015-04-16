@@ -32,12 +32,12 @@
                 </div> 
         </div>
         <!-- /.row -->
-
+        <div id="portfolio">
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/slide2.jpg">
+                    <img class="img-responsive" src="img/slide2.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-3 portfolio-item">
@@ -107,7 +107,7 @@
             </div>
         </div>
         <!-- /.row -->
-
+    </div>
         <hr>
 
         <!-- Pagination -->
@@ -162,6 +162,14 @@
                 $(".page-header").add("<small>" + val + "</small>")
                 $(".page-header small").replaceWith("<small>" + val +  "</small>")
             });
+
+             $(function() {
+      $('a').fullsizable({
+        detach_id: 'portfolio',
+        clickBehaviour: 'next'
+      });
+    });
+
         });
     </script>
 
