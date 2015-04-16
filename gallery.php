@@ -36,23 +36,23 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-3 portfolio-item">
-                <a href="img/slide2.jpg">
-                    <img class="img-responsive" src="img/slide2.jpg" alt="">
+                <a href="img/comercial/c1.jpg">
+                    <img class="img-responsive" src="img/comercial/c1.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/comercial/c2.jpg">
+                    <img class="img-responsive" src="img/comercial/c2.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/comercial/c3.jpg">
+                    <img class="img-responsive" src="img/comercial/c3.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/comercial/c4.jpg">
+                    <img class="img-responsive" src="img/comercial/c4.jpg" alt="">
                 </a>
             </div>
         </div>
@@ -61,23 +61,23 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/comercial/c5.jpg">
+                    <img class="img-responsive" src="img/comercial/c5.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/comercial/c6.jpg">
+                    <img class="img-responsive" src="img/comercial/c6.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/comercial/c7.jpg">
+                    <img class="img-responsive" src="img/comercial/c7.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="img/comercial/c8.jpg">
+                    <img class="img-responsive" src="img/comercial/c8.jpg" alt="">
                 </a>
             </div>
         </div>
