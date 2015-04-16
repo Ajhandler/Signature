@@ -1,6 +1,12 @@
-
+<!-- crappy style workaround for now -->
+<style>
+    body{
+        padding-top: 70px;
+    }
+</style>
     <!-- Navigation -->
     <?php
+        $work = "Comcercial";
         include 'shared/header.php'
     ?>
 
@@ -9,20 +15,21 @@
 
         <!-- Page Heading -->
         <div class="row">
-            <div class="col-lg-">
-                <h1 class="page-header">Type of Work
-                    <small>Option text</small>
+            <div class="col-lg-12">
+                <h1 class="page-header"><?php echo $work; ?> <small></small>
                 </h1>
             </div>
-              <!--   <div class="col-lg-4">
-            <select class="form-control">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            </div>
+            <div class="row">
+                 <div class="col-lg-6 col-lg-offset-3">
+                <select class="form-control work-form">
+            <option>Please Select Detail</option>
+            <option>Trim</option>
+            <option>Modern</option>
+            <option>Option</option>
+            <option>Option</option>
             </select>
-                </div> -->
+                </div> 
         </div>
         <!-- /.row -->
 
@@ -149,26 +156,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script>
-    $(document).ready(function() {
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-            titleSrc: function(item) {
-                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-            }
-        }
-    });
-});
-</script>
+        $(document).ready(function(){
+            $('.work-form').change(function() {
+                var val = $(".work-form option:selected").text();
+                $(".page-header").add("<small>" + val + "</small>")
+                $(".page-header small").replaceWith("<small>" + val +  "</small>")
+            });
+        });
+    </script>
 
 </body>
 
