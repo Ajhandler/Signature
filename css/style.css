@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 
@@ -94,6 +95,14 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+
+/* GALLERY CSS
+-------------------------------------------------- */
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+
 
 
 /* RESPONSIVE CSS
