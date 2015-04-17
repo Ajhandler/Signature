@@ -14,9 +14,8 @@
        
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Contact
-                    <small>Subheading</small>
-                </h1>
+                <h1 class="page-header">Contact Us
+                                    </h1>
         </div>
             </div>
 
@@ -25,14 +24,14 @@
             <!-- Map Column -->
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>Contact Details</h3>
+                <h3>Contact Us</h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                    501 Westport Avenue #20<br>Norwalk, CT 06851<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                    <abbr title="Phone">P</abbr>: (203) 846-2501</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">signaturekd@gmail.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
@@ -82,6 +81,11 @@
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
+                      <div  class="control-group form-group">
+                        <div class="controls">
+                            <label>2 + 3 = ?</label>
+                            <input type="email" class="form-control" id="secrurity" required data-validation-required-message="Please enter your email address.">
+                        </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
                     <button type="submit" class="btn btn-primary">Send Message</button>

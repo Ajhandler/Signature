@@ -17,7 +17,7 @@
           <img class="slideimg" src="82743738.jpeg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-            <img src="LOGO12.PNG">
+            <h1 class="oswald">Signature Contracting Group</h1>
               <h1>Residential</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consectetur reprehenderit vero iusto provident impedit suscipit odit aspernatur ipsa cupiditate modi eaque, veniam ex optio, magnam! Nostrum illum natus atque!</p>
               <p><a class="btn btn-lg btn-primary" href="gallery.html" role="button">Contact Us</a></p>
@@ -28,6 +28,7 @@
           <img class="slideimg" src="slide3.jpeg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
+            <h1 class="oswald">Signature Contracting Group</h1>
               <h1>Commercial</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="gallery.html" role="button">Learn more</a></p>
@@ -38,6 +39,7 @@
           <img class="slideimg" src="slide2.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
+            <h1 class="oswald">Signature Contracting Group</h1>
               <h1>Land Development</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="gallery.html" role="button">Browse gallery</a></p>
